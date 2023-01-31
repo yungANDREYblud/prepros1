@@ -1,0 +1,100 @@
+h1 {
+  font-family: Roboto-Regular;
+}
+
+h2 {
+  font-family: Montserrat-Regular;
+}
+
+h3 {
+  font-family: Merriweather-LightItalic;
+}
+
+h4 {
+  font-family: Montserrat-Light;
+}
+
+h5 {
+  font-family: HelveticaNeueLTProLt;
+}
+
+h6 {
+  font-family: HelveticaNeueLTProMd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 1px solid red;
+  width: 60%;
+  margin: 0 auto;
+}
+header h1 {
+  font-family: "HelveticaNeueLTProLt";
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #1d1e1f;
+  text-align: center;
+  margin-top: 206px;
+}
+header h3 {
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  color: #898888;
+  text-align: center;
+}
+header .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 188px;
+  height: 57px;
+  border: 1px solid #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  margin: 0 auto;
+  font-weight: 400;
+  latter-spacing: 0.4em;
+  color: #000;
+  margin-top: 44px;
+}
+header nav ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[7];
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+header nav ul a {
+  text-decoration: none;
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #989696;
+}
+header nav ul:hover {
+  color: #010101;
+}
+header nav ul li.active a {
+  color: #010101;
+}
